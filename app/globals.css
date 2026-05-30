@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --dark: #111111;
+  --wine: #8B1A1A;
+  --wine-light: #A52020;
+  --gold: #C4A44E;
+  --gold-light: #D4B468;
+  --cream: #F5F0EB;
+  --border: #E5DDD3;
+  --text: #1C1C1C;
+  --muted: #777777;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: #ffffff;
+  color: var(--text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
